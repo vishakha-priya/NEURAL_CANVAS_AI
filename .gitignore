@@ -1,19 +1,9 @@
 .venv/
-venv/
-pycache/
-*.py[cod]
-.ipynb_checkpoints/
-.env
-style_data/
-content_data/
-train_3.zip
-test2017.zip
+# Ignore macOS system files
+.DS_Store
+**/.DS_Store
 
-*.pt
-checkpoints/
-stage1/
-stage2/
-stage3/
-static/uploads/*
-static/upload/*
-utils/static/uploads/*
+# Ignore Python bytecode directories
+__pycache__/
+**/__pycache__/
+*.pyc
