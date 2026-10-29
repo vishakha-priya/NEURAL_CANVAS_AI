@@ -1,1 +1,1 @@
-web:gunicorn --bind :$PORT app:app.py
+web:gunicorn --bind :$PORT app:app
