@@ -21,7 +21,7 @@ app = Flask(__name__,
             static_folder=os.path.join(Base_Dir,"static"))
 app.config['SECRET_KEY'] = 'supersecretkey'
 app.config['UPLOAD_FOLDER'] = os.path.join(
-    app.root_path, 'static', 'uploads'
+    Base_Dir, 'static', 'uploads'
 )
 app.config['ALLOWED_EXTENSIONS'] = {'png', 'jpg', 'jpeg'}
 Bootstrap(app)
